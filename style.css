@@ -1,0 +1,308 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 60px;
+}
+.navbar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 40px;
+    cursor: pointer;
+}
+.profileicon{
+    height: 40px;
+    cursor: pointer;
+}
+.firstbar{
+    background-color: black;
+    height: 600px;
+}
+.mainimg{
+    width: 1066px;
+    height: 600px;
+    cursor: pointer;
+}
+.firstbar h6{
+    color: white;
+    position: relative;
+    margin-top: -525px;
+    margin-left: 1110px;
+    font-size: 16.5px;
+    cursor: pointer;
+}
+.firstbar h1{
+    color: white;
+    margin-top: 10px;
+    margin-left: 1110px;
+    font-size: 38px;
+    line-height: 1.1;
+    cursor: pointer;
+}
+.firstbar button{
+    margin-top: 58px;
+    margin-left: 1110px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 60px; 
+    width: 245px;
+    cursor: pointer;
+}
+.firstbar h2{
+    margin-left: 1110px;
+    margin-top: 90px;
+    color: white;
+    cursor: pointer;
+    font-size: 60px;
+    
+}
+.firstbar h3{
+    margin-left: 1210px;
+    margin-top: -80px;
+    color: gray;
+    font-size: 60px;
+    cursor: pointer;
+}
+.secondbar{
+    background-color: #0b0b0b;
+    height: 2100px;
+}
+.secondbar h1{
+    color: white;
+    margin-left: 79px;
+    padding-top: 80px;
+    font-size: 30px;
+    font-weight: 100px;
+    cursor: pointer;
+}
+.btn1{
+    margin-left: 79px;
+    border-color: gray;
+    border-style: groove;
+    background-color: black;
+    width: 430px;
+    height: 650px;
+    margin-left: 79px;
+    margin-top: 30px;
+    padding-top: 500px;
+    border-radius: 5px;
+    
+}
+.btn2{
+    margin-left: 79px;
+    border-color: gray;
+    border-style: groove;
+    background-color: black;
+    width: 430px;
+    height: 650px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-top: 500px;
+    border-radius: 5px;
+}
+.btn3{
+    margin-left: 79px;
+    border-color: grey;
+    border-style: groove;
+    background-color: black;
+    width: 430px;
+    height: 650px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-top: 500px;
+    border-radius: 5px;
+}
+.img1{
+    position: absolute;
+    width: 428px;
+    height: 440px;
+    margin-left: 80px;
+    margin-top: -650px;
+    cursor: pointer;
+}
+.img2{
+    position: absolute;
+    width: 428px;
+    height: 440px;
+    margin-left: 545px;
+    margin-top: -650px;
+    cursor: pointer;
+}
+.img3{
+    position: absolute;
+    width: 425px;
+    height: 440px;
+    margin-left: 1010px;
+    margin-top: -649px;
+    cursor: pointer; 
+}
+.secoundbartext h2{
+    color: white;
+    font-size: 16px;
+    margin-left: 110px;
+    margin-top: -170px;
+}
+.secoundbartext h3{
+    color: white;
+    opacity: .65;
+    font-size: 16px;
+    margin-left: 210px;
+    margin-top: -20px;
+}
+.secoundbartext h1{
+    margin-top: -67px;
+    font-size: 24px;
+    margin-left: 105px;
+}
+.secoundbartext2 h2{
+    color: white;
+    font-size: 16px;
+    margin-left: 580px;
+    margin-top: -100px;
+}
+.secoundbartext2 h3{
+    color: white;
+    opacity: .65;
+    font-size: 16px;
+    margin-left: 690px;
+    margin-top: -20px;
+}
+.secoundbartext2 h1{
+    margin-top: -67px;
+    font-size: 24px;
+    margin-left: 580px;
+}
+.secoundbartext3 h2{
+    color: white;
+    font-size: 16px;
+    margin-left: 1050px;
+    margin-top: -135px;
+}
+.secoundbartext3 h3{
+    color: white;
+    opacity: .65;
+    font-size: 16px;
+    margin-left: 1160px;
+    margin-top: -20px;
+}
+.secoundbartext3 h1{
+    margin-top: -67px;
+    font-size: 24px;
+    margin-left: 1050px;
+}
+.copyoffirst{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+    width: 100%;
+    padding-top: 70px;
+}
+.thirdbar{
+    display: flex;
+    background-color: #0b0b0b;
+    height: 260px;
+}
+.thirdbar h1{
+    position: relative;
+    color: white;
+    margin-top: -430px;
+    margin-left: 80px;
+}
+.featureimg1{
+    position: absolute;
+    width: 330px;
+    height: 390px;
+    margin-top: -350px;
+    margin-left: -240px;
+    border-radius: 10px;
+}
+.featureimg2{
+    position: absolute;
+    width: 330px;
+    height: 390px;
+    margin-top: -350px;
+    margin-left: 120px;
+    border-radius: 10px;
+}
+.featureimg3{
+    position: absolute;
+    width: 330px;
+    height: 390px;
+    margin-top: -350px;
+    margin-left: 470px;
+    border-radius: 10px;
+}
+.featureimg4{
+    position: absolute;
+    width: 330px;
+    height: 390px;
+    margin-top: -350px;
+    margin-left: 830px;
+    border-radius: 10px; 
+}
+.lastpart{
+    background-color: black;
+    height: 440px;
+}
+.last1 h1{
+   padding-top: 80px;
+   padding-left: 80px;
+    color: #dcdcdc;
+    font-size: 20px;
+    font-weight: 600;
+}
+.last1 h2{
+    color: #dcdcdc;
+    margin-left: 1300px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.last2 h6{
+    padding-top: 60px;
+    padding-left: 80px;
+     color: 
+     #4a4a4a;
+     font-size: 12px;
+     font-weight: 700;
+}
+.last2 h5{
+    margin-left: 1200px;
+    font-size: 25px;
+}
+.last3 h3{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 95px;
+    padding-left: 80px;
+}
+.last3 h4{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 630px;
+    margin-top: -20px;
+}
+.last3 h2{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 1360px;
+    margin-top: -20px; 
+}
+
+
+
